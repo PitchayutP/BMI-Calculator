@@ -31,6 +31,9 @@ struct ContentView: View {
             }) {
                 Text("Calculate")
             }.padding()
+                .background(.orange)
+                .foregroundColor(.white)
+                .clipShape(Capsule())
     
         }
 }
